@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IndecisionApp from './components/IndecisionApp';
+import Router from './routers/router';
 import 'normalize.css';
 import './scss/style.scss';
 
-ReactDOM.render(<IndecisionApp />, document.querySelector('#app'));
+ReactDOM.render(<Router />, document.querySelector('#app'));

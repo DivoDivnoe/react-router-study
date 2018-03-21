@@ -23,7 +23,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, 'public'),
-    open: true,
-    hot: true
+    historyApiFallback: true,
+    open: true
   }
 };
